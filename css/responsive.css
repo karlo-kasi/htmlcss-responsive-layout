@@ -67,4 +67,14 @@
         padding: 10px 15px;
     }
 
+    .ads {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .presentation p img {
+        float: left;
+        
+    }
+
 }
