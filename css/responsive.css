@@ -1,9 +1,7 @@
 /* Soluzione qui */
 
-@media screen and ( min-width: 768px ){
+@media screen and ( min-width: 768px ) and ( max-width: 992px ) {
 
-    
-    
     #topbar {
         height: 70px;
         padding: 0 20px;
@@ -74,7 +72,86 @@
 
     .presentation p img {
         float: left;
-        
     }
 
+}
+
+
+@media screen and ( min-width: 992px ){
+
+    #topbar {
+        height: 70px;
+        padding: 0 20px;
+        background-color: #fff;
+    
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    main {
+        background-color: #f6f5f3;
+        padding: 50px;
+        min-height: calc(100vh - 70px);
+    }
+
+    .recipe-name {
+        font-size: 3rem;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-card {
+        background-color: white;
+    
+        border-radius: 3px;
+        box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
+    
+        margin-bottom: 30px;
+
+        display: flex;
+    }
+
+    .recipe-video {
+        flex-basis: 70%;
+        height: 450px;
+    }
+
+    .recipe-info {
+        flex-basis: 30%;
+    }
+
+    .btn {
+        border: 0;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 50px;
+        border-radius: 20px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background-color: #fff;
+    }
+
+    .btn-orange {
+        color: #fff;
+        background-color: #f7972e;
+        padding: 10px 15px;
+    }
+
+    .social-networks .label {
+        display: inline-block;
+    }
+    
+    .ads {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .presentation p img {
+        float: left;
+    }
+    
+    
 }
